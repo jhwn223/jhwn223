@@ -1,13 +1,12 @@
 <div align="center">
 
-# 👋 김지환 &nbsp;|&nbsp; Jihwan Kim
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=F59E0B&center=true&vCenter=true&width=600&height=60&lines=Hi%2C+I+am+Jihwan+Kim;Software+Engineering+%40+CAU;Studying+Data+Science+%26+ML;Always+building+something" alt="Typing SVG" />
 
 **중앙대학교 소프트웨어학부** 🎓 &nbsp;·&nbsp; Seoul, South Korea
 
-데이터로 문제를 정의하고, 직접 만들어서 확인하는 걸 좋아합니다.<br/>
-공공데이터 분석부터 웹 애플리케이션까지 아이디어를 끝까지 굴려보는 중입니다.
+궁금하면 일단 만들어보는 편입니다.
 
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kimjh050223@gmail.com) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jhwn223) [![Portfolio](https://img.shields.io/badge/Portfolio-F59E0B?style=for-the-badge&logo=googlechrome&logoColor=white)](https://jhwn223.github.io)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kimjh050223@gmail.com) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jhwn223) [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/j_hwn._k/) [![Portfolio](https://img.shields.io/badge/Portfolio-F59E0B?style=for-the-badge&logo=googlechrome&logoColor=white)](https://jhwn223.github.io)
 
 </div>
 
