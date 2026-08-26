@@ -18,11 +18,12 @@
 | | |
 |:---|:---|
 | **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
-| **Frontend** | ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white) ![dnd-kit](https://img.shields.io/badge/dnd--kit-2C3E50?style=flat-square) |
 | **Data Analysis** | ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![PyArrow](https://img.shields.io/badge/PyArrow-FF6F00?style=flat-square&logo=apachearrow&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square) |
 | **Machine Learning** | ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![Logistic Regression](https://img.shields.io/badge/Logistic_Regression-6C7A89?style=flat-square) ![Random Forest](https://img.shields.io/badge/Random_Forest-2E8B57?style=flat-square) ![Feature Engineering](https://img.shields.io/badge/Feature_Engineering-8E44AD?style=flat-square) |
+| **Web** | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Kakao Maps SDK](https://img.shields.io/badge/Kakao_Maps_SDK-FFCD00?style=flat-square&logo=kakao&logoColor=black) |
+| **Backend & DB** | ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Realtime](https://img.shields.io/badge/Realtime-3FCF8E?style=flat-square) ![Row Level Security](https://img.shields.io/badge/Row_Level_Security-4169E1?style=flat-square) |
 | **Tools** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white) ![npm](https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white) |
-| **Deploy** | ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) |
+| **Deploy** | ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) |
 
 ---
 
@@ -43,19 +44,22 @@
 
 <br/>
 
-### 🚲 따릉이 프로젝트 — 서울시 공공자전거 부족 예측
+### 🗺 Coursepic — 로그인 없이 초대 링크 하나로 함께 만드는 데이트 코스
 
-서울시 따릉이 대여 기록 170만 건(2025년 1월)과 기상청 날씨 데이터를 결합해 **부족 진단 → 이동 흐름 분석 → 부족 예측** 세 단계로 풀어낸 데이터 분석 프로젝트입니다.
+연인이나 친구가 같은 코스 방에 모여 장소를 찾고, 의견을 나누고, 코스를 함께 완성하는 협업형 웹 MVP입니다. 회원가입 대신 닉네임과 익명 세션을 쓰고, 초대 링크를 받은 사람은 곧바로 같은 방의 코스와 대화를 실시간으로 봅니다.
 
-- **부족 진단** — 2,000여 개 대여소의 시간별 순유출입 집계, 평일 오전 7시 출근 시간대에 부족 집중
-- **이동 흐름(OD) 분석** — 상위 20개 이동 패턴 추출, 따릉이가 지하철역과 주거·상업 지역을 잇는 **라스트 마일** 수단임을 확인
-- **부족 예측** — "시간당 3대 이상 부족" 이진 분류. 로지스틱 회귀 베이스라인 → 시차(lag) 피처와 날씨를 더한 랜덤 포레스트로 **AUC 0.66 → 0.73**
-- **가설 검증** — 강수 시 부족 비율 6.9% → 4.5%로 감소
-- **한계 기록** — 1개월 데이터라 계절성 학습 불가, 단일 관측소로 미기후 반영 어려움, 클래스 불균형으로 정밀도 낮음
+- **익명 참여와 공유방** — 로그인 없이 닉네임으로 입장, 초대 코드 링크·카카오톡 공유로 같은 방 진입, 현재 참여자와 편집 상태 실시간 표시
+- **카카오맵 장소 탐색** — 키워드·카테고리 검색, 검색 결과와 코스 장소를 지도 마커로 표시, 상세 정보 확인 후 코스 후보로 추가
+- **인원에 따라 갈리는 편집 규칙** — 1명이면 즉시 반영, 2명 이상이면 제안 → 다른 참여자의 수락·거절을 거쳐 반영. 중복 추가·중복 제안 방지
+- **실시간 동기화** — Supabase Realtime으로 코스 장소, 참여자, 댓글, 제안 상태를 모든 화면에 동시 반영
+- **접근 제어** — Row Level Security와 PostgreSQL RPC로 코스 참여자 단위 권한 관리
+- **모바일 작업 화면** — 하단 코스·지도·대화 탭 전환, 장소 카드 드래그로 방문 순서 변경, 반응형 레이아웃
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![PyArrow](https://img.shields.io/badge/PyArrow-FF6F00?style=flat-square&logo=apachearrow&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+**다음 확장 범위** — 자동 코스 추천, 길찾기, 전체 거리·예상 시간 계산, 예약·결제, 커뮤니티
 
-🔗 [Repository](https://github.com/jhwn223/ttareungi-project)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Kakao Maps](https://img.shields.io/badge/Kakao_Maps-FFCD00?style=flat-square&logo=kakao&logoColor=black) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
+🔗 [Coursepic 바로가기](https://travel-szul.vercel.app)
 
 <br/>
 
@@ -69,10 +73,19 @@ GitHub Pages로 배포한 개인 포트폴리오 페이지입니다.
 
 ---
 
-## 📊 GitHub Stats
+## 🌱 진행 중인 프로젝트
 
-<div align="center">
+### 🚲 따릉이 프로젝트 — 서울시 공공자전거 부족 예측 ![In Progress](https://img.shields.io/badge/In_Progress-F59E0B?style=flat-square)
 
-<img src="https://github-readme-stats.vercel.app/api?username=jhwn223&show_icons=true&hide_border=true&bg_color=0d1117&title_color=f59e0b&icon_color=fb923c&text_color=c9d1d9&include_all_commits=true" height="170" alt="GitHub Stats" />
+서울시 따릉이 대여 기록 170만 건(2025년 1월)과 기상청 날씨 데이터를 결합해 **부족 진단 → 이동 흐름 분석 → 부족 예측** 세 단계로 풀어가는 데이터 분석 프로젝트입니다.
 
-</div>
+- **부족 진단** — 2,000여 개 대여소의 시간별 순유출입 집계, 평일 오전 7시 출근 시간대에 부족 집중
+- **이동 흐름(OD) 분석** — 상위 20개 이동 패턴 추출, 따릉이가 지하철역과 주거·상업 지역을 잇는 **라스트 마일** 수단임을 확인
+- **부족 예측** — "시간당 3대 이상 부족" 이진 분류. 로지스틱 회귀 베이스라인 → 시차(lag) 피처와 날씨를 더한 랜덤 포레스트로 **AUC 0.66 → 0.73**
+- **가설 검증** — 강수 시 부족 비율 6.9% → 4.5%로 감소
+
+**다음 단계** — 1개월치 데이터의 계절성 한계 보완, 다중 관측소 날씨 데이터 반영, 클래스 불균형에 따른 정밀도 개선
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![PyArrow](https://img.shields.io/badge/PyArrow-FF6F00?style=flat-square&logo=apachearrow&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+
+🔗 [Repository](https://github.com/jhwn223/ttareungi-project)
