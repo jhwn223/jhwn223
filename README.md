@@ -4,7 +4,6 @@
 
 **중앙대학교 소프트웨어학부** 🎓 &nbsp;·&nbsp; Seoul, South Korea
 
-궁금하면 일단 만들어보는 편입니다.
 
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kimjh050223@gmail.com) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jhwn223) [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/j_hwn._k/) [![Portfolio](https://img.shields.io/badge/Portfolio-F59E0B?style=for-the-badge&logo=googlechrome&logoColor=white)](https://jhwn223.github.io)
 
