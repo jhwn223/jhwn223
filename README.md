@@ -4,6 +4,7 @@
 
 **중앙대학교 소프트웨어학부** 🎓 &nbsp;·&nbsp; Seoul, South Korea
 
+궁금하면 일단 만들어보는 편입니다.
 
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kimjh050223@gmail.com) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jhwn223) [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/j_hwn._k/) [![Portfolio](https://img.shields.io/badge/Portfolio-F59E0B?style=for-the-badge&logo=googlechrome&logoColor=white)](https://jhwn223.github.io)
 
@@ -87,3 +88,26 @@ GitHub Pages로 배포한 개인 포트폴리오 페이지입니다.
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![PyArrow](https://img.shields.io/badge/PyArrow-FF6F00?style=flat-square&logo=apachearrow&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 
 🔗 [Repository](https://github.com/jhwn223/ttareungi-project)
+
+---
+
+## 📚 공부 중
+
+### 멋쟁이사자처럼 — 쿠팡 일잘러의 비밀 도구: SQL·Python·Tableau로 끝내는 데이터 분석
+
+`2026.08 ~` &nbsp;·&nbsp; 실무 데이터 분석 워크플로우를 SQL → Python → Tableau 순서로 익히는 과정입니다.
+배운 내용과 실습은 저장소에 정리해 올릴 예정입니다.
+
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
+
+<!-- 개강 후 추가 예정
+### 머신러닝
+`2026.09 ~`
+
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+
+### Spring Boot
+`2026.09 ~`
+
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
+-->
