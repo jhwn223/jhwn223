@@ -15,17 +15,36 @@
 
 | | |
 |:---|:---|
-| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
+| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) |
 | **Data Analysis** | ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![PyArrow](https://img.shields.io/badge/PyArrow-FF6F00?style=flat-square&logo=apachearrow&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square) |
-| **Machine Learning** | ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![Logistic Regression](https://img.shields.io/badge/Logistic_Regression-6C7A89?style=flat-square) ![Random Forest](https://img.shields.io/badge/Random_Forest-2E8B57?style=flat-square) ![Feature Engineering](https://img.shields.io/badge/Feature_Engineering-8E44AD?style=flat-square) |
-| **Web** | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Kakao Maps SDK](https://img.shields.io/badge/Kakao_Maps_SDK-FFCD00?style=flat-square&logo=kakao&logoColor=black) |
+| **Machine Learning** | ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![Model Evaluation](https://img.shields.io/badge/Model_Evaluation-2E8B57?style=flat-square) ![Calibration](https://img.shields.io/badge/Calibration-6C7A89?style=flat-square) ![Feature Engineering](https://img.shields.io/badge/Feature_Engineering-8E44AD?style=flat-square) |
 | **Backend & DB** | ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Realtime](https://img.shields.io/badge/Realtime-3FCF8E?style=flat-square) ![Row Level Security](https://img.shields.io/badge/Row_Level_Security-4169E1?style=flat-square) |
-| **Tools** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white) ![npm](https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white) |
+| **Tools** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![npm](https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white) |
 | **Deploy** | ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) |
 
 ---
 
 ## 🚀 Projects
+
+### 🧠 Facial Expression Model Analysis — 공개 모델 감사, 그리고 감사 방법론의 함정
+
+Hugging Face의 얼굴 표정 분류 모델(`trpakov/vit-face-expression`)을 **새로 학습하지 않고** 외부 데이터에서 검증한 프로젝트입니다. 처음 측정값은 Accuracy 22.6%였지만, 원인을 추적한 결과 그 숫자의 절반 이상이 모델이 아니라 **평가 파이프라인의 전처리 불일치**에서 온 것임을 밝혔습니다.
+
+- **원인 분리 실험** — 체크포인트·표본 939장·지표 구현을 모두 고정하고 **입력 크롭만** 변경. 장면 전체를 넣으면 Accuracy 22.6% (95% CI 20.3–24.8), 얼굴 영역만 잘라 넣으면 **45.3%** (42.7–47.7). Macro F1은 0.134 → 0.302로 2.3배, 두 조건의 신뢰구간은 겹치지 않음
+- **오귀속 차단** — 낮은 점수를 모델 탓으로 돌리기 전에 라벨 오정렬 가능성을 먼저 배제. 7개 클래스의 모든 재배치를 탐색해 최적 할당으로도 +5.9%p에 그침을 확인
+- **붕괴의 정체** — 모든 정답 클래스가 `sad` 하나로 몰리던 현상(전체의 61.6%)은 모델의 편향이 아니라 프레이밍 산물. 크롭 후 40.4%로 감소하고 최빈 클래스가 `happy`로 전환
+- **남은 격차의 정직한 보고** — 정렬 후에도 45.3%로 모델 카드의 71.16%에 미달. `disgust`는 두 조건 모두 F1 0.000, `surprise`는 Precision 0.923 / Recall 0.100. 전처리로 설명되지 않는 잔여 실패를 구분해 기록
+- **신뢰도** — ECE 40.7%p → 34.8%p, Brier 1.074 → 0.865로 개선되었으나 평균 신뢰도가 80.1%까지 함께 상승해 과신은 유지. 원점수를 정답 확률로 해석할 수 없음
+- **재현 가능한 감사 파이프라인** — 고정 리비전, 계층화 부트스트랩 CI, Wilson 구간, 15-bin ECE, BH FDR 보정, 산출물 무결성 검증, pytest·ruff·Streamlit 대시보드
+- **사용 제한 명시** — 원본 얼굴 미배포, 인구통계 추정 없음, 채용·법 집행·감시 등 의사결정 용도 사용 금지. 성능 개선은 배포 근거가 아님을 결론에 명시
+
+**핵심 교훈** — 공개 모델 감사에서 보고되는 낮은 외부 성능은 모델과 평가 설계의 결합 효과이며, 입력 조건을 통제하지 않으면 파이프라인의 결함이 모델의 결함으로 오귀속됩니다.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+
+🔗 [Repository](https://github.com/jhwn223/facial-expression-analysis)
+
+<br/>
 
 ### ⚽ MatchplanXI — 2026 월드컵 전술 시뮬레이터
 
