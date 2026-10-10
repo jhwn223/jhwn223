@@ -26,7 +26,7 @@
 
 ## 🚀 Projects
 
-### 📊 Personal & Data Projects
+### 📊  Independent Projects
 
 #### 🌐 Portfolio Site
 
