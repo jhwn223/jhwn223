@@ -11,13 +11,11 @@
 </div>
 
 <h2 align="center">Skills &amp; Tools</h2>
-
-| | |
-|:---|:---|
-| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java_(coursework)-007396?style=flat-square&logo=openjdk&logoColor=white) ![C](https://img.shields.io/badge/C_(coursework)-A8B9CC?style=flat-square&logo=c&logoColor=black) |
-| **Data Analysis** | ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![PyArrow](https://img.shields.io/badge/PyArrow-FF6F00?style=flat-square&logo=apachearrow&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square) |
-| **Machine Learning** | ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![Model Evaluation](https://img.shields.io/badge/Model_Evaluation-2E8B57?style=flat-square) ![Calibration](https://img.shields.io/badge/Calibration-6C7A89?style=flat-square) ![Feature Engineering](https://img.shields.io/badge/Feature_Engineering-8E44AD?style=flat-square) |
-| **Tools** | ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) |
+<p align="center">
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=python,java,c,pandas,numpy,matplotlib,scikitlearn,huggingface,jupyter,streamlit,git,github&amp;perline=6&amp;theme=dark" alt="Python, Java (coursework), C (coursework), pandas, NumPy, Matplotlib, scikit-learn, Hugging Face, Jupyter, Streamlit, Git, GitHub">
+  <br>
+  <sub>PyArrow · Model Evaluation · Calibration · Feature Engineering · Java &amp; C coursework</sub>
+</p>
 
 <h2 align="center">Contributions</h2>
 <div align="center">
